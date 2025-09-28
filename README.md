@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://swingui.com/" target="_blank">
-    <img src="https://swingui.com/assets/logo-XQyS-Mfo.webp" height="70" alt="SwingUI">
+  <a href="https://auraui.com/" target="_blank">
+    <img src="https://auraui.com/assets/logo-XQyS-Mfo.webp" height="70" alt="AuraUI">
   </a>
 </p>
 
@@ -12,7 +12,7 @@
 
 ## 📝 Documentation
 
-For the full documentation, visit [swingui.com](https://swingui.com/).
+For the full documentation, visit [auraui.com](https://auraui.com/).
 
 <br>
 
@@ -25,13 +25,13 @@ For the full documentation, visit [swingui.com](https://swingui.com/).
   </tr>
   <tr>
     <td >
-        <a href="https://swingui.com/swingkit/gradients/" target="_blank" >
-            <img alt="Gradiends" src="https://swingui.com/assets/Gradinent_Light-DVpWdZYh.webp">
+        <a href="https://auraui.com/swingkit/gradients/" target="_blank" >
+            <img alt="Gradiends" src="https://auraui.com/assets/Gradinent_Light-DVpWdZYh.webp">
         </a>
     </td>
     <td >
-        <a href="https://swingui.com/swingkit/animated-gradients/" target="_blank" >
-            <img alt="Animated Gradiends" src="https://swingui.com/assets/Animated_Gradinent_Light-DEfN8Q5K.webp">
+        <a href="https://auraui.com/swingkit/animated-gradients/" target="_blank" >
+            <img alt="Animated Gradiends" src="https://auraui.com/assets/Animated_Gradinent_Light-DEfN8Q5K.webp">
         </a>
     </td>
   </tr>
@@ -41,13 +41,13 @@ For the full documentation, visit [swingui.com](https://swingui.com/).
   </tr>
   <tr>
     <td >
-        <a href="https://swingui.com/components/button/">
-            <img alt="Tailwind CSS Buttons" src="https://swingui.com/assets/Buttons_Light-yfqIUsNn.webp">
+        <a href="https://auraui.com/components/button/">
+            <img alt="Tailwind CSS Buttons" src="https://auraui.com/assets/Buttons_Light-yfqIUsNn.webp">
         </a>
     </td>
     <td >
-        <a href="https://swingui.com/components/card/">
-            <img alt="Tailwind CSS Cards" src="https://swingui.com/assets/Cards_Light-Ht3JJG6v.webp">
+        <a href="https://auraui.com/components/card/">
+            <img alt="Tailwind CSS Cards" src="https://auraui.com/assets/Cards_Light-Ht3JJG6v.webp">
         </a>
     </td>
   </tr>
@@ -57,19 +57,19 @@ For the full documentation, visit [swingui.com](https://swingui.com/).
   </tr>
   <tr>
     <td >
-        <a href="https://swingui.com/swingkit/text-gradients">
-            <img alt="SwingUI Text Gradiends" src="https://swingui.com/assets/Gradinent_Text_Light-MtyZQQaP.webp">
+        <a href="https://auraui.com/swingkit/text-gradients">
+            <img alt="AuraUI Text Gradiends" src="https://auraui.com/assets/Gradinent_Text_Light-MtyZQQaP.webp">
         </a>
     </td>
     <td >
-        <a href="https://swingui.com/components/navbar">
-            <img alt="Tailwind CSS NavBar" src="https://swingui.com/assets/NavBar_Light-DIzo74CJ.webp">
+        <a href="https://auraui.com/components/navbar">
+            <img alt="Tailwind CSS NavBar" src="https://auraui.com/assets/NavBar_Light-DIzo74CJ.webp">
         </a>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
-        <a href="https://swingui.com/components/accordion/">
+        <a href="https://auraui.com/components/accordion/">
             View All
         </a>
     </td>
@@ -90,17 +90,17 @@ Include these in your `<head>` section:
 <!-- Remix Icons -->
 <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
 
-<!-- SwingUI CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/imaaryan/SwingUI@main/SwingUI/swing.css">
+<!-- AuraUI CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/imaaryan/AuraUI@main/AuraUI/swing.css">
 ```
 
-### 2. Add SwingUI CDN
-Now, drop in SwingUI's CSS and JS to unlock all the components and styles: 
+### 2. Add AuraUI CDN
+Now, drop in AuraUI's CSS and JS to unlock all the components and styles: 
 Include these code above `</body>` Body tag end
 
 ```html
-<!-- SwingUI JS -->
-<script src="https://cdn.jsdelivr.net/gh/imaaryan/SwingUI@beta-live/SwingUI/swing.js"></script>
+<!-- AuraUI JS -->
+<script src="https://cdn.jsdelivr.net/gh/imaaryan/AuraUI@beta-live/AuraUI/swing.js"></script>
 ```
 ⚡ That's it — no config, no setup. Just plug and play..
 
@@ -108,7 +108,7 @@ Include these code above `</body>` Body tag end
 <br>
 
 ## ❤️ Our Story
-Built during the ChaiCode Web Dev Hackathon by a team of passionate developers, mentored by Hitesh Choudhary, Anirudh Jwala, Piyush Garg, Mukul, and Akash. We created SwingUI to:
+Built during the ChaiCode Web Dev Hackathon by a team of passionate developers, mentored by Hitesh Choudhary, Anirudh Jwala, Piyush Garg, Mukul, and Akash. We created AuraUI to:
 
 - Solve real-world development challenges
 - Learn by shipping real products
@@ -123,7 +123,7 @@ Built during the ChaiCode Web Dev Hackathon by a team of passionate developers, 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/imaaryan/SwingUI.git
+git clone https://github.com/imaaryan/AuraUI.git
 ```
 
 2. Install dependencies:

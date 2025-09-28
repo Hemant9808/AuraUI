@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useTheme } from '../context/ThemeContext';
 import { Link } from 'react-router';
 import '../docs/SwingKit/Gradients/style.css';
-import logo from '../../public/logo.webp';
+import logo from '../../public/logo.png';
 import { useLocation } from 'react-router-dom';
 import About from '../docs/About/About';
 import PreBuiltTemplate from '../docs/PrelBuiltTemplate/PreBuiltTemplate';
@@ -134,7 +134,7 @@ function Navbar() {
                 className='flex items-center cursor-pointer hover:text-[var(--dark-nav-hover)]'
                 onClick={toggleSwingKit}
               >
-                SwingKit
+                AuraKit
                 <i
                   className={`ri-arrow-down-s-line ml-1 text-xs ${
                     isSwingKitOpen ? 'rotate-180' : ''
@@ -290,15 +290,15 @@ function Navbar() {
             </div>
           )}
 
-          <Link
+          {/* <Link
             to='/prebuilt-template'
             className='hover:text-[var(--dark-nav-hover)]'
           >
             Pre-built Template
-          </Link>
-          <Link to='/about' className='hover:text-[var(--dark-nav-hover)]'>
+          </Link> */}
+          {/* <Link to='/about' className='hover:text-[var(--dark-nav-hover)]'>
             About
-          </Link>
+          </Link> */}
 
           {/* {!isLandingPage && (
             <Link to='/about' className='hover:text-[var(--dark-nav-hover)]'>
@@ -338,7 +338,7 @@ function Navbar() {
             </Link>
           ) : (
             <Link
-              to='https://github.com/imaaryan/SwingUI'
+              to='https://github.com/hemant9808/AuraUI'
               target='_blank'
               className='swing-ocean-gradient hover:swing-ocean-gradient flex w-31 gap-x-2 items-center text-white px-6 py-2 rounded-4xl'
             >
@@ -392,7 +392,7 @@ function Navbar() {
                 className='flex items-center justify-between px-6 py-3 hover:text-[var(--dark-nav-hover)] transition cursor-pointer'
                 onClick={toggleMobileSwingKit}
               >
-                SwingKit
+                AuraKit
                 <i
                   className={`transition-transform duration-300 ${
                     mobileSwingKitOpen
@@ -461,13 +461,13 @@ function Navbar() {
                 ))}
               </div>
             </div>
-            <Link
+            {/* <Link
               to='/about'
               onClick={handleMobileLinkClick}
               className='block px-6 py-3 hover:text-[var(--dark-nav-hover)] transition'
             >
               About
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

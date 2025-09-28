@@ -201,10 +201,10 @@ const Tabs = () => {
           Tabs
         </h2>
         <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
-          Swing Tab System
+          Aura Tab System
         </h2>
         <p className='mb-6 sm:mb-8 md:mb-10 lg:mb-12'>
-          SwingUI's responsive tab system delivers intuitive content
+          AuraUI's responsive tab system delivers intuitive content
           organization with smooth transitions between views, featuring adaptive
           layouts for all screen sizes.
         </p>

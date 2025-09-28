@@ -7,9 +7,9 @@ import Table from '../../components/TableComponent/Table.jsx'; // Import the new
 import BottomFooter from '../../../components/BottomFooter.jsx';
 
 import buttonData from './ButtonData.js';
-import '../../SwingKit/AnimatedGradients/style.css';
-import '../../SwingKit/Gradients/style.css';
-import '../../SwingKit/TextGradients/style.css';
+import '../../AuraKit/AnimatedGradients/style.css';
+import '../../AuraKit/Gradients/style.css';
+import '../../AuraKit/TextGradients/style.css';
 import { Link } from 'react-router';
 
 const Button = () => {
@@ -76,15 +76,15 @@ const Button = () => {
   const propertiesData = [
     {
       propertyName: 'background (custom class)',
-      defaultValue: 'swing-ocean-gradient',
+      defaultValue: 'aura-ocean-gradient',
       description:
-        'Applies a gradient background effect using the official swing-ocean-gradient class.',
+        'Applies a gradient background effect using the official aura-ocean-gradient class.',
     },
     {
       propertyName: 'hover background (custom)',
-      defaultValue: 'hover:swing-ocean-gradient',
+      defaultValue: 'hover:aura-ocean-gradient',
       description:
-        'Applies the swing-ocean-gradient background on hover for visual interactivity.',
+        'Applies the aura-ocean-gradient background on hover for visual interactivity.',
     },
     {
       propertyName: 'icon class (custom)',
@@ -179,7 +179,7 @@ const Button = () => {
           and other UI elements. These smooth, colorful gradients can enhance
           the visual appeal and interactivity of your design. If you want to
           explore more gradient styles, check out the
-          <Link to='/swingkit/gradients' className='swing-ocean-gradient-text'>
+          <Link to='/aurakit/gradients' className='aura-ocean-gradient-text'>
             {' '}
             Gradient Collection.
           </Link>
@@ -191,10 +191,10 @@ const Button = () => {
         <p className='mb-10 sm:mb-16'>
           These animated gradients offer dynamic, moving color transitions,
           adding an interactive and visually engaging effect to your design. If
-          you want to explore more Swing Animated Gradients, check out the
+          you want to explore more Aura Animated Gradients, check out the
           <Link
-            to='/swingkit/animated-gradients'
-            className='swing-ocean-gradient-text'
+            to='/aurakit/animated-gradients'
+            className='aura-ocean-gradient-text'
           >
             {' '}
             Animated Gradient Collection.

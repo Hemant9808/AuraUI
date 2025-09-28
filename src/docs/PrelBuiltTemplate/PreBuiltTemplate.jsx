@@ -55,7 +55,7 @@ const comingCode = ` <div class="gradient-wrapper swing-ocean-gradient-animate">
           />
           <button type="submit" class="subscribe-btn">Notify Me</button>
           <div id="success-message" class="success-message">
-            Thanks! We'll notify you when SwingUI launches.
+            Thanks! We'll notify you when AuraUI launches.
           </div>
         </form>
 
@@ -80,7 +80,7 @@ const comingCode = ` <div class="gradient-wrapper swing-ocean-gradient-animate">
 //code for id 2
 const maintenanceCode = `<div class="gradient-wrapper swing-peach-gradient-animate">
       <div class="container">
-        <img class="logo" src="assets/image/logo.png" alt="SwingUI Logo" />
+        <img class="logo" src="assets/image/logo.png" alt="AuraUI Logo" />
 
         <h1 class="maintenance-title">We're Making Things Better!</h1>
 
@@ -129,14 +129,14 @@ const maintenanceCode = `<div class="gradient-wrapper swing-peach-gradient-anima
       title: "Coming Soon Page", 
       image: comingimg,
       code: comingCode,
-      previewLink: "https://comingsoon.swingui.com/" 
+      previewLink: "https://comingsoon.auraui.com/" 
     },
     { 
       id: 2, 
       title: "Maintenance Page", 
       image: maintenceimg,
       code: maintenanceCode,
-      previewLink: "https://maintenance.swingui.com/"
+      previewLink: "https://maintenance.auraui.com/"
     },
   ];
 

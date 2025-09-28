@@ -1,11 +1,11 @@
 window.addEventListener('DOMContentLoaded', () => {
     let prevWidth = window.innerWidth;
-    const sliders = document.querySelectorAll('.swing-scrolling-image');
+    const sliders = document.querySelectorAll('.aura-scrolling-image');
     const sliderHtml = [];
 
     const getInitialWidth = (container) => {
       let width = 0;
-      const items = container.querySelectorAll('.swing-slider-item');
+      const items = container.querySelectorAll('.aura-slider-item');
       const gap = parseFloat(getComputedStyle(container).gap || 0);
 
       items.forEach((item) => {
@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
       while (
         container.children.length >
-        sliderHtml[indexI][indexJ].split('swing-slider-item').length - 1
+        sliderHtml[indexI][indexJ].split('aura-slider-item').length - 1
       ) {
         container.lastChild.remove();
       }

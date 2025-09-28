@@ -17,9 +17,9 @@ const Rating = () => {
 
   const htmlCssCode = `
 <section>
-  <div class="swing-ratings">
+  <div class="aura-ratings">
     <label class="angry">
-      <input type="radio" value="1" name="swing-ratings" />
+      <input type="radio" value="1" name="aura-ratings" />
       <div>
         <svg class="eye left">
           <use xlink:href="#eye"></use>
@@ -33,7 +33,7 @@ const Rating = () => {
       </div>
     </label>
     <label class="sad">
-      <input type="radio" value="2" name="swing-ratings" />
+      <input type="radio" value="2" name="aura-ratings" />
       <div>
         <svg class="eye left">
           <use xlink:href="#eye"></use>
@@ -47,11 +47,11 @@ const Rating = () => {
       </div>
     </label>
     <label class="ok">
-      <input type="radio" value="3" name="swing-ratings" />
+      <input type="radio" value="3" name="aura-ratings" />
       <div></div>
     </label>
     <label class="good">
-      <input type="radio" value="4" name="swing-ratings" checked />
+      <input type="radio" value="4" name="aura-ratings" checked />
       <div>
         <svg class="eye left">
           <use xlink:href="#eye"></use>
@@ -65,7 +65,7 @@ const Rating = () => {
       </div>
     </label>
     <label class="happy">
-      <input type="radio" value="5" name="swing-ratings" />
+      <input type="radio" value="5" name="aura-ratings" />
       <div>
         <svg class="eye left">
           <use xlink:href="#eye"></use>
@@ -92,7 +92,7 @@ const Rating = () => {
   // const propertiesData = [
   //   {
   //     propertyName: 'Wrapper',
-  //     defaultValue: 'swing-ratings',
+  //     defaultValue: 'aura-ratings',
   //     description: 'Container for all emoji-based rating labels.',
   //   },
   //   {
@@ -103,7 +103,7 @@ const Rating = () => {
   //   },
   //   {
   //     propertyName: 'Radio input',
-  //     defaultValue: 'type="radio" name="swing-ratings" value="1-5"',
+  //     defaultValue: 'type="radio" name="aura-ratings" value="1-5"',
   //     description:
   //       'Radio input elements for selecting a rating. The value indicates the score.',
   //   },
@@ -192,10 +192,10 @@ const Rating = () => {
           Rating
         </h2>
         <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
-          Swing Feedback Faces
+          Aura Feedback Faces
         </h2>
         <p className='mb-6 sm:mb-8 md:mb-10 lg:mb-12'>
-          SwingUI's visual feedback system captures user sentiment through
+          AuraUI's visual feedback system captures user sentiment through
           intuitive facial expressions, transforming traditional ratings into an
           engaging, human-centered experience.
         </p>

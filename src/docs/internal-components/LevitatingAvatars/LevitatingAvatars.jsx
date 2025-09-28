@@ -172,7 +172,7 @@ function LevitatingAvatars() {
     </div>
     <!-- Centered Logo -->
    <div class="absolute text-8x1 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-      <img src="/logo.webp" class="h-20 object-contain" alt="SwingUI Logo" />
+      <img src="/logo.png" class="h-20 object-contain" alt="AuraUI Logo" />
     </div>
   </div>
 </div>`;
@@ -191,10 +191,10 @@ function LevitatingAvatars() {
          Levitating Avatar
         </h2>
         <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
-          Swing Orbit Display
+          Aura Orbit Display
         </h2>
         <p className='mb-6 sm:mb-8 md:mb-10 lg:mb-12'>
-          SwingUI's dynamic orbital display features dual rotating rings with
+          AuraUI's dynamic orbital display features dual rotating rings with
           configurable speed and direction, creating an engaging visual
           interface for showcasing key elements.
         </p>

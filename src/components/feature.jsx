@@ -39,7 +39,7 @@ export default function FeaturesSection() {
       icon: 'link',
       title: 'Link the Essentials',
       description:
-        "Include Tailwind CSS, Remix Icon, and our SwingUI CSS & JS CDN files in your project — you're all set to start building.",
+        "Include Tailwind CSS, Remix Icon, and our AuraUI CSS & JS CDN files in your project — you're all set to start building.",
     },
     {
       icon: 'gradient',
@@ -51,7 +51,7 @@ export default function FeaturesSection() {
       icon: 'animation',
       title: 'Add Animation',
       description:
-        'Want it to move? Just slap on -animate and SwingUI will handle the rest — smooth, stylish motion with zero setup.',
+        'Want it to move? Just slap on -animate and AuraUI will handle the rest — smooth, stylish motion with zero setup.',
     },
   ];
 

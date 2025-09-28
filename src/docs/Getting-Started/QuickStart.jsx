@@ -31,7 +31,7 @@ const QuickStart = () => {
           </h1>
           <p className='mb-10 sm:mb-16'>
             Getting started with{' '}
-            <span className='swing-ocean-gradient-text font-bold'>SwingUI</span>
+            <span className='swing-ocean-gradient-text font-bold'>AuraUI</span>
           </p>
 
           <div className='w-full'>
@@ -68,25 +68,25 @@ const QuickStart = () => {
                 />
 
             <h2 className='text-xl sm:text-2xl font-semibold mb-4'>
-              2. Add SwingUI CDN
+              2. Add AuraUI CDN
             </h2>
             <div className='w-full mb-6'>
               <p className='mb-6'>
-                Now, drop in SwingUI's CSS and JS to unlock all the components
+                Now, drop in AuraUI's CSS and JS to unlock all the components
                 and styles.
               </p>
               <div className='w-full codeblock-wrapper mb-6'>
                 <CodeBlock
-                  code={`<!-- SwingUI CSS Paste this code in Header -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/imaaryan/SwingUI@main/SwingUI/swing.css">`}
+                  code={`<!-- AuraUI CSS Paste this code in Header -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hemant9808/AuraUI@v1.0.1/AuraUI/aura.css">`}
                     />
               </div>
             </div>
 
             <div className='w-full codeblock-wrapper mb-8'>
               <CodeBlock
-                code={`<!-- SwingUI JS Paste this code above Body tag end -->
-<script src="https://cdn.jsdelivr.net/gh/imaaryan/SwingUI@main/SwingUI/swing.js"></script>`}
+                code={`<!-- AuraUI JS Paste this code above Body tag end -->
+<script src="https://cdn.jsdelivr.net/gh/hemant9808/AuraUI@v1.0.1/AuraUI/aura.js"></script>`}
                   />
             </div>
             <p className='mb-6'>

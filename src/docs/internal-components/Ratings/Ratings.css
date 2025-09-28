@@ -1,4 +1,4 @@
-.swing-ratings {
+.aura-ratings {
     --normal: #77777b;
     --normal-shadow: #626265;
     --normal-shadow-top: #727177;
@@ -18,15 +18,15 @@
     list-style: none;
     display: flex;
   }
-  .swing-ratings label {
+  .aura-ratings label {
     position: relative;
     transition: transform 0.3s;
     cursor: pointer;
   }
-  .swing-ratings label:not(:last-child) {
+  .aura-ratings label:not(:last-child) {
     margin-right: 20px;
   }
-  .swing-ratings label input {
+  .aura-ratings label input {
     appearance: none;
     outline: none;
     border: none;
@@ -45,15 +45,15 @@
     transition: background 0.4s, box-shadow 0.4s, transform 0.3s;
     -webkit-tap-highlight-color: transparent;
   }
-  .swing-ratings label div {
+  .aura-ratings label div {
     width: 40px;
     height: 40px;
     position: relative;
     transform: perspective(240px) translateZ(4px);
   }
-  .swing-ratings label div svg,
-  .swing-ratings label div:before,
-  .swing-ratings label div:after {
+  .aura-ratings label div svg,
+  .aura-ratings label div:before,
+  .aura-ratings label div:after {
     display: block;
     position: absolute;
     left: var(--l, 9px);
@@ -62,7 +62,7 @@
     height: var(--h, 1px);
     transform: rotate(var(--r, 0deg)) scale(var(--sc, 1)) translateZ(0);
   }
-  .swing-ratings label div svg {
+  .aura-ratings label div svg {
     fill: none;
     stroke: var(--s);
     stroke-width: 1.5px;
@@ -70,68 +70,68 @@
     stroke-linejoin: round;
     transition: stroke 0.4s;
   }
-  .swing-ratings label div svg.eye {
+  .aura-ratings label div svg.eye {
     --s: var(--e, var(--normal-eye));
     --t: 17px;
     --w: 7px;
     --h: 4px;
   }
-  .swing-ratings label div svg.eye.right {
+  .aura-ratings label div svg.eye.right {
     --l: 23px;
   }
-  .swing-ratings label div svg.mouth {
+  .aura-ratings label div svg.mouth {
     --s: var(--m, var(--normal-mouth));
     --l: 11px;
     --t: 23px;
     --w: 18px;
     --h: 7px;
   }
-  .swing-ratings label div:before,
-  .swing-ratings label div:after {
+  .aura-ratings label div:before,
+  .aura-ratings label div:after {
     content: "";
     z-index: var(--zi, 1);
     border-radius: var(--br, 1px);
     background: var(--b, var(--e, var(--normal-eye)));
     transition: background 0.4s;
   }
-  .swing-ratings label.angry {
+  .aura-ratings label.angry {
     --step-1-rx: -24deg;
     --step-1-ry: 20deg;
     --step-2-rx: -24deg;
     --step-2-ry: -20deg;
   }
-  .swing-ratings label.angry div:before {
+  .aura-ratings label.angry div:before {
     --r: 20deg;
   }
-  .swing-ratings label.angry div:after {
+  .aura-ratings label.angry div:after {
     --l: 23px;
     --r: -20deg;
   }
-  .swing-ratings label.angry div svg.eye {
+  .aura-ratings label.angry div svg.eye {
     stroke-dasharray: 4.55;
     stroke-dashoffset: 8.15;
   }
-  .swing-ratings label.angry input:checked {
+  .aura-ratings label.angry input:checked {
     animation: angry 1s linear;
   }
-  .swing-ratings label.angry input:checked + div:before {
+  .aura-ratings label.angry input:checked + div:before {
     --middle-y: -2px;
     --middle-r: 22deg;
     animation: toggle 0.8s linear forwards;
   }
-  .swing-ratings label.angry input:checked + div:after {
+  .aura-ratings label.angry input:checked + div:after {
     --middle-y: 1px;
     --middle-r: -18deg;
     animation: toggle 0.8s linear forwards;
   }
-  .swing-ratings label.sad {
+  .aura-ratings label.sad {
     --step-1-rx: 20deg;
     --step-1-ry: -12deg;
     --step-2-rx: -18deg;
     --step-2-ry: 14deg;
   }
-  .swing-ratings label.sad div:before,
-  .swing-ratings label.sad div:after {
+  .aura-ratings label.sad div:before,
+  .aura-ratings label.sad div:after {
     --b: var(--active-tear);
     --sc: 0;
     --w: 5px;
@@ -139,22 +139,22 @@
     --t: 15px;
     --br: 50%;
   }
-  .swing-ratings label.sad div:after {
+  .aura-ratings label.sad div:after {
     --l: 25px;
   }
-  .swing-ratings label.sad div svg.eye {
+  .aura-ratings label.sad div svg.eye {
     --t: 16px;
   }
-  .swing-ratings label.sad div svg.mouth {
+  .aura-ratings label.sad div svg.mouth {
     --t: 24px;
     stroke-dasharray: 9.5;
     stroke-dashoffset: 33.25;
   }
-  .swing-ratings label.sad input:checked + div:before,
-  .swing-ratings label.sad input:checked + div:after {
+  .aura-ratings label.sad input:checked + div:before,
+  .aura-ratings label.sad input:checked + div:after {
     animation: tear 0.6s linear forwards;
   }
-  .swing-ratings label.ok {
+  .aura-ratings label.ok {
     --step-1-rx: 4deg;
     --step-1-ry: -22deg;
     --step-1-rz: 6deg;
@@ -162,7 +162,7 @@
     --step-2-ry: 22deg;
     --step-2-rz: -6deg;
   }
-  .swing-ratings label.ok div:before {
+  .aura-ratings label.ok div:before {
     --l: 12px;
     --t: 17px;
     --h: 4px;
@@ -170,7 +170,7 @@
     --br: 50%;
     box-shadow: 12px 0 0 var(--e, var(--normal-eye));
   }
-  .swing-ratings label.ok div:after {
+  .aura-ratings label.ok div:after {
     --l: 13px;
     --t: 26px;
     --w: 14px;
@@ -178,21 +178,21 @@
     --br: 1px;
     --b: var(--m, var(--normal-mouth));
   }
-  .swing-ratings label.ok input:checked + div:before {
+  .aura-ratings label.ok input:checked + div:before {
     --middle-s-y: 0.35;
     animation: toggle 0.2s linear forwards;
   }
-  .swing-ratings label.ok input:checked + div:after {
+  .aura-ratings label.ok input:checked + div:after {
     --middle-s-x: 0.5;
     animation: toggle 0.7s linear forwards;
   }
-  .swing-ratings label.good {
+  .aura-ratings label.good {
     --step-1-rx: -14deg;
     --step-1-rz: 10deg;
     --step-2-rx: 10deg;
     --step-2-rz: -8deg;
   }
-  .swing-ratings label.good div:before {
+  .aura-ratings label.good div:before {
     --b: var(--m, var(--normal-mouth));
     --w: 5px;
     --h: 5px;
@@ -203,36 +203,36 @@
     box-shadow: 16px 0 0 var(--b);
     filter: blur(2px);
   }
-  .swing-ratings label.good div:after {
+  .aura-ratings label.good div:after {
     --sc: 0;
   }
-  .swing-ratings label.good div svg.eye {
+  .aura-ratings label.good div svg.eye {
     --t: 15px;
     --sc: -1;
     stroke-dasharray: 4.55;
     stroke-dashoffset: 8.15;
   }
-  .swing-ratings label.good div svg.mouth {
+  .aura-ratings label.good div svg.mouth {
     --t: 22px;
     --sc: -1;
     stroke-dasharray: 13.3;
     stroke-dashoffset: 23.75;
   }
-  .swing-ratings label.good input:checked + div svg.mouth {
+  .aura-ratings label.good input:checked + div svg.mouth {
     --middle-y: 1px;
     --middle-s: -1;
     animation: toggle 0.8s linear forwards;
   }
-  .swing-ratings label.happy div {
+  .aura-ratings label.happy div {
     --step-1-rx: 18deg;
     --step-1-ry: 24deg;
     --step-2-rx: 18deg;
     --step-2-ry: -24deg;
   }
-  .swing-ratings label.happy div:before {
+  .aura-ratings label.happy div:before {
     --sc: 0;
   }
-  .swing-ratings label.happy div:after {
+  .aura-ratings label.happy div:after {
     --b: var(--m, var(--normal-mouth));
     --l: 11px;
     --t: 23px;
@@ -240,36 +240,36 @@
     --h: 8px;
     --br: 0 0 8px 8px;
   }
-  .swing-ratings label.happy div svg.eye {
+  .aura-ratings label.happy div svg.eye {
     --t: 14px;
     --sc: -1;
   }
-  .swing-ratings label.happy input:checked + div:after {
+  .aura-ratings label.happy input:checked + div:after {
     --middle-s-x: 0.95;
     --middle-s-y: 0.75;
     animation: toggle 0.8s linear forwards;
   }
-  .swing-ratings label input:checked {
+  .aura-ratings label input:checked {
     --sb: var(--active);
     --sh: var(--active-shadow);
     --sht: var(--active-shadow-top);
   }
-  .swing-ratings label input:checked + div {
+  .aura-ratings label input:checked + div {
     --m: var(--active-mouth);
     --e: var(--active-eye);
     animation: shake 0.8s linear forwards;
   }
-  .swing-ratings label input:not(:checked):hover {
+  .aura-ratings label input:not(:checked):hover {
     --sb: var(--hover);
     --sht: var(--hover-shadow-top);
   }
-  .swing-ratings label input:not(:checked):active {
+  .aura-ratings label input:not(:checked):active {
     transform: scale(0.925);
   }
-  .swing-ratings label input:not(:checked):active + div {
+  .aura-ratings label input:not(:checked):active + div {
     transform: scale(0.925);
   }
-  .swing-ratings label:hover {
+  .aura-ratings label:hover {
     transform: scale(1.08);
   }
   
@@ -332,31 +332,31 @@
   /* Add these at the end of Ratings.css */
 
 @media (max-width: 640px) {
-    .swing-ratings {
+    .aura-ratings {
       flex-wrap: wrap;
       justify-content: center;
       gap: 10px;
     }
     
-    .swing-ratings label {
+    .aura-ratings label {
       transform: scale(0.9);
     }
     
-    .swing-ratings label:hover {
+    .aura-ratings label:hover {
       transform: scale(0.95);
     }
     
-    .swing-ratings label:not(:last-child) {
+    .aura-ratings label:not(:last-child) {
       margin-right: 10px;
     }
   }
   
   @media (max-width: 400px) {
-    .swing-ratings label {
+    .aura-ratings label {
       transform: scale(0.8);
     }
     
-    .swing-ratings label:hover {
+    .aura-ratings label:hover {
       transform: scale(0.85);
     }
   }

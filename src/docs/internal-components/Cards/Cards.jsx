@@ -28,10 +28,10 @@ const Cards = () => {
     
     <!-- Card 1 -->
     <div class="group relative h-auto min-h-72 w-full lg:w-[48%] mb-6 lg:mr-[2%] transition-all duration-300 hover:-translate-x-2 hover:-translate-y-2" style="max-width: 350px;">
-      <div class="absolute top-1 left-1 h-full w-full swing-ocean-gradient border-2 border-black rounded-lg -z-10 transition-all duration-300 group-hover:top-2 group-hover:left-2"></div>
-      <div class="absolute top-2 left-2 h-full w-full swing-ocean-gradient border-2 border-black rounded-lg -z-20 transition-all duration-300 group-hover:top-4 group-hover:left-4"></div>
+      <div class="absolute top-1 left-1 h-full w-full aura-ocean-gradient border-2 border-black rounded-lg -z-10 transition-all duration-300 group-hover:top-2 group-hover:left-2"></div>
+      <div class="absolute top-2 left-2 h-full w-full aura-ocean-gradient border-2 border-black rounded-lg -z-20 transition-all duration-300 group-hover:top-4 group-hover:left-4"></div>
 
-      <div class="relative flex flex-col justify-between h-full w-full p-6 swing-ocean-gradient border-2 border-black rounded-lg">
+      <div class="relative flex flex-col justify-between h-full w-full p-6 aura-ocean-gradient border-2 border-black rounded-lg">
         <div class="flex flex-col justify-between h-full">
           <h1 class="font-semibold text-2xl text-gray-900">DYNAMIC</h1>
           <p class="text-[18px] text-gray-900">
@@ -49,10 +49,10 @@ const Cards = () => {
 
     <!-- Card 2 -->
     <div class="group relative h-auto min-h-72 w-full lg:w-[48%] mb-6 lg:ml-[2%] transition-all duration-300 hover:-translate-x-2 hover:-translate-y-2" style="max-width: 350px;">
-      <div class="absolute top-1 left-1 h-full w-full swing-peach-gradient border-2 border-black rounded-lg -z-10 transition-all duration-300 group-hover:top-2 group-hover:left-2"></div>
-      <div class="absolute top-2 left-2 h-full w-full swing-peach-gradient border-2 border-black rounded-lg -z-20 transition-all duration-300 group-hover:top-4 group-hover:left-4"></div>
+      <div class="absolute top-1 left-1 h-full w-full aura-peach-gradient border-2 border-black rounded-lg -z-10 transition-all duration-300 group-hover:top-2 group-hover:left-2"></div>
+      <div class="absolute top-2 left-2 h-full w-full aura-peach-gradient border-2 border-black rounded-lg -z-20 transition-all duration-300 group-hover:top-4 group-hover:left-4"></div>
 
-      <div class="relative flex flex-col justify-between h-full w-full p-6 swing-peach-gradient border-2 border-black rounded-lg">
+      <div class="relative flex flex-col justify-between h-full w-full p-6 aura-peach-gradient border-2 border-black rounded-lg">
         <div class="flex flex-col justify-between h-full">
           <h1 class="font-semibold text-2xl text-gray-900">DATA DRIVEN</h1>
           <p class="text-[18px] text-gray-900">
@@ -70,10 +70,10 @@ const Cards = () => {
 
     <!-- Card 3 -->
     <div class="group relative h-auto min-h-72 w-full lg:w-[48%] mb-6 lg:mr-[2%] transition-all duration-300 hover:-translate-x-2 hover:-translate-y-2" style="max-width: 350px;">
-      <div class="absolute top-1 left-1 h-full w-full swing-fire-gradient border-2 border-black rounded-lg -z-10 transition-all duration-300 group-hover:top-2 group-hover:left-2"></div>
-      <div class="absolute top-2 left-2 h-full w-full swing-fire-gradient border-2 border-black rounded-lg -z-20 transition-all duration-300 group-hover:top-4 group-hover:left-4"></div>
+      <div class="absolute top-1 left-1 h-full w-full aura-fire-gradient border-2 border-black rounded-lg -z-10 transition-all duration-300 group-hover:top-2 group-hover:left-2"></div>
+      <div class="absolute top-2 left-2 h-full w-full aura-fire-gradient border-2 border-black rounded-lg -z-20 transition-all duration-300 group-hover:top-4 group-hover:left-4"></div>
 
-      <div class="relative flex flex-col justify-between h-full w-full p-6 swing-fire-gradient border-2 border-black rounded-lg">
+      <div class="relative flex flex-col justify-between h-full w-full p-6 aura-fire-gradient border-2 border-black rounded-lg">
         <div class="flex flex-col justify-between h-full">
           <h1 class="font-semibold text-2xl text-gray-900">DUTIFUL</h1>
           <p class="text-[18px] text-gray-900">
@@ -91,10 +91,10 @@ const Cards = () => {
 
     <!-- Card 4 -->
     <div class="group relative h-auto min-h-72 w-full lg:w-[48%] mb-6 lg:ml-[2%] transition-all duration-300 hover:-translate-x-2 hover:-translate-y-2" style="max-width: 350px;">
-      <div class="absolute top-1 left-1 h-full w-full swing-love-gradient border-2 border-black rounded-lg -z-10 transition-all duration-300 group-hover:top-2 group-hover:left-2"></div>
-      <div class="absolute top-2 left-2 h-full w-full swing-love-gradient border-2 border-black rounded-lg -z-20 transition-all duration-300 group-hover:top-4 group-hover:left-4"></div>
+      <div class="absolute top-1 left-1 h-full w-full aura-love-gradient border-2 border-black rounded-lg -z-10 transition-all duration-300 group-hover:top-2 group-hover:left-2"></div>
+      <div class="absolute top-2 left-2 h-full w-full aura-love-gradient border-2 border-black rounded-lg -z-20 transition-all duration-300 group-hover:top-4 group-hover:left-4"></div>
 
-      <div class="relative flex flex-col justify-between h-full w-full p-6 swing-love-gradient border-2 border-black rounded-lg">
+      <div class="relative flex flex-col justify-between h-full w-full p-6 aura-love-gradient border-2 border-black rounded-lg">
         <div class="flex flex-col justify-between h-full">
           <h1 class="font-semibold text-2xl text-gray-900">DEMURE</h1>
           <p class="text-[18px] text-gray-900">
@@ -232,14 +232,14 @@ const Cards = () => {
   //   {
   //     propertyName: 'background (custom class)',
   //     defaultValue:
-  //       'swing-ocean-gradient, swing-peach-gradient, swing-fire-gradient, swing-love-gradient',
+  //       'aura-ocean-gradient, aura-peach-gradient, aura-fire-gradient, aura-love-gradient',
   //     description:
-  //       'Applies a gradient background effect using the official swing gradient classes (each card has a different gradient).',
+  //       'Applies a gradient background effect using the official aura gradient classes (each card has a different gradient).',
   //   },
   //   {
   //     propertyName: 'hover background (custom)',
   //     defaultValue:
-  //       'hover:swing-ocean-gradient, hover:swing-peach-gradient, hover:swing-fire-gradient, hover:swing-love-gradient',
+  //       'hover:aura-ocean-gradient, hover:aura-peach-gradient, hover:aura-fire-gradient, hover:aura-love-gradient',
   //     description:
   //       'Applies the respective gradient background on hover for visual interactivity.',
   //   },
@@ -373,8 +373,8 @@ const Cards = () => {
 
         <div className='space-y-12'>
           <CardDemo
-            title='Swing Depth Cards'
-            description="Elevate interactions with SwingUI's gradient cards—dynamic hover effects, layered depth, and responsive hidden CTAs for seamless engagement."
+            title='Aura Depth Cards'
+            description="Elevate interactions with AuraUI's gradient cards—dynamic hover effects, layered depth, and responsive hidden CTAs for seamless engagement."
             code={depthCardsCode}
             id='depthCards'
           />
@@ -387,8 +387,8 @@ const Cards = () => {
           }`}
         />
           <CardDemo
-            title='Swing Edge Cards'
-            description="SwingUI's modern course cards combine sleek dark backgrounds with vibrant floating circles for visual impact. The clean typography and hover-triggered animations ensure an engaging, professional user experience."
+            title='Aura Edge Cards'
+            description="AuraUI's modern course cards combine sleek dark backgrounds with vibrant floating circles for visual impact. The clean typography and hover-triggered animations ensure an engaging, professional user experience."
             code={edgeCardsCode}
             id='edgeCards'
           />

@@ -12,13 +12,13 @@ function BottomFooter() {
       className={`bottom-footer flex flex-col lg:px-6 lg:flex-row lg:justify-between lg:items-center border-t ${borderClass} pt-10 pb-8 gap-y-4 text-sm mt-4 mb-4 ${textColor}`}
     >
       <div className='text-center lg:text-left w-full lg:w-auto font-normal'>
-        <span>© 2025 SwingUI. All Rights Reserved.</span>
+        <span>© 2025 AuraUI. All Rights Reserved.</span>
       </div>
 
       <div className='w-full lg:w-auto flex justify-center lg:justify-end'>
         <div className='flex flex-wrap justify-center lg:justify-end gap-4 lg:gap-6 font-normal text-center break-words'>
           <a
-            href='https://github.com/imaaryan/SwingUI'
+            href='https://github.com/hemant9808/AuraUI'
                 className='hover:text-[var(--dark-nav-hover)] transition-colors'
                 rel='noopener noreferrer'
                 target='_blank'
@@ -26,7 +26,7 @@ function BottomFooter() {
             Github
           </a>
           <a
-            href='https://discord.com/invite/gd9Vjb6VCm'
+            href=''
             rel='noopener noreferrer'
             target='_blank'
             className='hover:text-[var(--dark-nav-hover)] transition-colors'
@@ -34,7 +34,7 @@ function BottomFooter() {
             Discord
           </a>
           <a
-            href='https://x.com/swing_ui'
+            href=''
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-[var(--dark-nav-hover)] transition-colors break-words'

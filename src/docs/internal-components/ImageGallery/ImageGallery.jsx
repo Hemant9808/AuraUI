@@ -24,20 +24,20 @@ function ImageGallery() {
 
   const htmlCssCode = `<div class=" bg-black">
       <div class="space-y-8 w-full pt-8 pb-8">
-          <div class="swing-scrolling-image"
+          <div class="aura-scrolling-image"
             style="
             --direction: 1;
             --speed: 10; 
             --pause-on-hover: false;">
               <div class="slider-container w-full flex animate-scroll gap-4 px-4">
-         <div class="swing-slider-item">
+         <div class="aura-slider-item">
           <img
             src="${img1}"
             alt="Image 1"
             class="w-full h-full object-cover rounded-sm"
           />
          </div>
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
           <img
             src="${img2}"
             alt="Image 2"
@@ -45,7 +45,7 @@ function ImageGallery() {
           />
          </div>
 
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
           <img
             src="${img3}"
             alt="Image 2"
@@ -53,7 +53,7 @@ function ImageGallery() {
           />
          </div>
 
-           <div class="swing-slider-item">
+           <div class="aura-slider-item">
           <img
             src="${img4}"
             alt="Image 2"
@@ -64,20 +64,20 @@ function ImageGallery() {
             </div>
           </div>
 
-          <div class="swing-scrolling-image"
+          <div class="aura-scrolling-image"
             style="
             --direction: -1; 
             --speed: 10; 
             --pause-on-hover: false;">
               <div class="slider-container w-full flex animate-scroll gap-4 px-4">
-         <div class="swing-slider-item">
+         <div class="aura-slider-item">
           <img
             src="${img5}"
             alt="Image 1"
             class="w-full h-full object-cover rounded-sm"
           />
          </div>
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
           <img
             src="${img6}"
             alt="Image 2"
@@ -85,7 +85,7 @@ function ImageGallery() {
           />
          </div>
 
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
           <img
             src="${img7}"
             alt="Image 2"
@@ -93,7 +93,7 @@ function ImageGallery() {
           />
          </div>
 
-           <div class="swing-slider-item">
+           <div class="aura-slider-item">
           <img
             src="${img8}"
             alt="Image 2"
@@ -108,7 +108,7 @@ function ImageGallery() {
   const propertiesData = [
     {
       propertyName: 'scrolling wrapper class',
-      defaultValue: 'swing-scrolling-image',
+      defaultValue: 'aura-scrolling-image',
       description:
         'Custom class controlling scrolling animation using CSS variables.',
     },
@@ -137,7 +137,7 @@ function ImageGallery() {
     },
     {
       propertyName: 'slider item class',
-      defaultValue: 'swing-slider-item',
+      defaultValue: 'aura-slider-item',
       description:
         'Wrapper for each image, possibly used for future styling or animation targeting.',
     },
@@ -174,12 +174,12 @@ function ImageGallery() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       let prevWidth = window.innerWidth;
-      const sliders = document.querySelectorAll('.swing-scrolling-image');
+      const sliders = document.querySelectorAll('.aura-scrolling-image');
       const sliderHtml = [];
 
       const getInitialWidth = (container) => {
         let width = 0;
-        const items = container.querySelectorAll('.swing-slider-item');
+        const items = container.querySelectorAll('.aura-slider-item');
         const gap = parseFloat(getComputedStyle(container).gap || 0);
 
         items.forEach((item) => {
@@ -196,7 +196,7 @@ function ImageGallery() {
 
         while (
           container.children.length >
-          sliderHtml[indexI][indexJ].split('swing-slider-item').length - 1
+          sliderHtml[indexI][indexJ].split('aura-slider-item').length - 1
         ) {
           container.lastChild.remove();
         }
@@ -296,10 +296,10 @@ function ImageGallery() {
           Image Gallery
         </h2>
         <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
-          Swing Flow Infinite Scroller
+          Aura Flow Infinite Scroller
         </h2>
         <p className='mb-6 sm:mb-8 md:mb-10 lg:mb-12'>
-          SwingUI's auto-scrolling gallery delivers dynamic visual storytelling
+          AuraUI's auto-scrolling gallery delivers dynamic visual storytelling
           with dual-directional motion, creating an eye-catching yet
           distraction-free presentation.
         </p>

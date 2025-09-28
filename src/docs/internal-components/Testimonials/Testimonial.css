@@ -1,4 +1,4 @@
-.swing-scrolling-image {
+.aura-scrolling-image {
   visibility: hidden;
   /* overflow: hidden; */
   opacity: 1;
@@ -7,25 +7,25 @@
   position: relative;
 }
 
-.swing-scrolling-image.showing {
+.aura-scrolling-image.showing {
   visibility: visible;
   opacity: 1;
 }
 
-.swing-scrolling-image .slider-container {
+.aura-scrolling-image .slider-container {
   animation: sliding calc(var(--est-speed, 10) * 1s * 50 / var(--speed)) linear
     infinite;
   display: flex;
   gap: 0.5rem;
 }
 
-.swing-slider-wrapper-dark {
+.aura-slider-wrapper-dark {
   position: relative;
   overflow: hidden;
 }
 
-.swing-slider-wrapper-dark::before,
-.swing-slider-wrapper-dark::after {
+.aura-slider-wrapper-dark::before,
+.aura-slider-wrapper-dark::after {
   content: '';
   position: absolute;
   top: 0;
@@ -35,7 +35,7 @@
   pointer-events: none;
 }
 
-.swing-slider-wrapper-dark::before {
+.aura-slider-wrapper-dark::before {
   left: 0;
   background: linear-gradient(
     to right,
@@ -44,7 +44,7 @@
   );
 }
 
-.swing-slider-wrapper-dark::after {
+.aura-slider-wrapper-dark::after {
   right: 0;
   background: linear-gradient(
     to left,
@@ -53,13 +53,13 @@
   );
 }
 
-.swing-slider-wrapper-light {
+.aura-slider-wrapper-light {
   position: relative;
   overflow: hidden;
 }
 
-.swing-slider-wrapper-light::before,
-.swing-slider-wrapper-light::after {
+.aura-slider-wrapper-light::before,
+.aura-slider-wrapper-light::after {
   content: '';
   position: absolute;
   top: 0;
@@ -69,7 +69,7 @@
   pointer-events: none;
 }
 
-.swing-slider-wrapper-light::before {
+.aura-slider-wrapper-light::before {
   left: 0;
   background: linear-gradient(
     to right,
@@ -78,7 +78,7 @@
   );
 }
 
-.swing-slider-wrapper-light::after {
+.aura-slider-wrapper-light::after {
   right: 0;
   background: linear-gradient(
     to left,
@@ -87,7 +87,7 @@
   );
 }
 
-.swing-slider-item {
+.aura-slider-item {
   transform: translateZ(0);
   transition: transform 0.3s ease-in-out;
   flex-shrink: 0;

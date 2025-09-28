@@ -1,7 +1,7 @@
-// swingScroller.js
+// auraScroller.js
 (function () {
   let prevWidth = window.innerWidth;
-  const sliders = document.querySelectorAll('.swing-scrolling-image');
+  const sliders = document.querySelectorAll('.aura-scrolling-image');
   const sliderHtml = [];
 
   // Compute the total width of all items + gaps

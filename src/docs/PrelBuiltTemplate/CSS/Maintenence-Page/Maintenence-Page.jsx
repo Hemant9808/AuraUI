@@ -6,7 +6,7 @@ const MaintenencePage = () => {
     <>
 <div class="gradient-wrapper swing-peach-gradient-animate">
       <div class="container">
-        <img class="logo" src="assets/image/logo.png" alt="SwingUI Logo" />
+        <img class="logo" src="assets/image/logo.png" alt="AuraUI Logo" />
 
         <h1 class="maintenance-title">We're Making Things Better!</h1>
 

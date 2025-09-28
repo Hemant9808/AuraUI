@@ -25,12 +25,12 @@ function Testimonial() {
   const htmlCssCode = `<div class=" bg-black text-white p-1 flex flex-col items-center justify-center">
     <div class="space-y-8 w-full pt-8 pb-8">
       <!-- First Slider -->
-      <div class="swing-slider-wrapper">
-        <div class="swing-scrolling-image"
+      <div class="aura-slider-wrapper">
+        <div class="aura-scrolling-image"
           style="--direction: 1; --speed: 10; --pause-on-hover: false;">
           <div class="slider-container">
             <!-- Testimonial Item 1 -->
-            <div class="swing-slider-item">
+            <div class="aura-slider-item">
               <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                 <div class="w-1/2">
                   <img src= ${pic1}
@@ -53,7 +53,7 @@ function Testimonial() {
                 </div>
               </div>
             </div>
-            <div class="swing-slider-item">
+            <div class="aura-slider-item">
               <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                 <div class="w-1/2">
                   <img src=${pic2}
@@ -76,7 +76,7 @@ function Testimonial() {
                 </div>
               </div>
             </div>
-            <div class="swing-slider-item">
+            <div class="aura-slider-item">
               <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                 <div class="w-1/2">
                   <img src=${pic3}
@@ -99,7 +99,7 @@ function Testimonial() {
                 </div>
               </div>
             </div>
-            <div class="swing-slider-item">
+            <div class="aura-slider-item">
               <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                 <div class="w-1/2">
                   <img src=${pic4}
@@ -127,11 +127,11 @@ function Testimonial() {
       </div>
 
       <!-- Second Slider -->
-      <div class="swing-slider-wrapper">
-        <div class="swing-scrolling-image"
+      <div class="aura-slider-wrapper">
+        <div class="aura-scrolling-image"
           style="--direction: -1; --speed: 15; --pause-on-hover: true;">
           <div class="slider-container">
-            <div class="swing-slider-item">
+            <div class="aura-slider-item">
               <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                 <div class="w-1/2">
                   <img src=${pic5}
@@ -154,7 +154,7 @@ function Testimonial() {
                 </div>
               </div>
               </div>
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
                 <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                   <div class="w-1/2">
                     <img src=${pic6}
@@ -177,7 +177,7 @@ function Testimonial() {
                   </div>
                 </div>
               </div>
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
                 <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                   <div class="w-1/2">
                     <img src=${pic7} 
@@ -200,7 +200,7 @@ function Testimonial() {
                   </div>
                 </div>
               </div>
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
                 <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                   <div class="w-1/2">
                     <img src=${pic8}
@@ -228,11 +228,11 @@ function Testimonial() {
       </div>
 
       <!-- Third Slider -->
-      <div class="swing-slider-wrapper">
-        <div class="swing-scrolling-image"
+      <div class="aura-slider-wrapper">
+        <div class="aura-scrolling-image"
           style="--direction: 1; --speed: 20;">
           <div class="slider-container">
-            <div class="swing-slider-item">
+            <div class="aura-slider-item">
               <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                 <div class="w-1/2">
                   <img src=${pic9}
@@ -255,7 +255,7 @@ function Testimonial() {
                 </div>
               </div>
               </div>
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
                 <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                   <div class="w-1/2">
                     <img src=${pic10}
@@ -278,7 +278,7 @@ function Testimonial() {
                   </div>
                 </div>
               </div>
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
                 <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                   <div class="w-1/2">
                     <img src=${pic11}
@@ -301,7 +301,7 @@ function Testimonial() {
                   </div>
                 </div>
               </div>
-              <div class="swing-slider-item">
+              <div class="aura-slider-item">
                 <div class="flex bg-gradient-to-r from-gray-800 to-gray-700 rounded-lg overflow-hidden shadow-lg h-full">
                   <div class="w-1/2">
                     <img src=${pic12} 
@@ -335,12 +335,12 @@ function Testimonial() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       let prevWidth = window.innerWidth;
-      const sliders = document.querySelectorAll('.swing-scrolling-image');
+      const sliders = document.querySelectorAll('.aura-scrolling-image');
       const sliderHtml = [];
 
       const getInitialWidth = (container) => {
         let width = 0;
-        const items = container.querySelectorAll('.swing-slider-item');
+        const items = container.querySelectorAll('.aura-slider-item');
 
         // Get computed style to properly handle gap
         const computedStyle = getComputedStyle(container);
@@ -476,15 +476,15 @@ function Testimonial() {
       window.addEventListener('resize', handleResize);
 
       // Add CSS for animation if not already present
-      if (!document.getElementById('swing-slider-animation')) {
+      if (!document.getElementById('aura-slider-animation')) {
         const styleElement = document.createElement('style');
-        styleElement.id = 'swing-slider-animation';
+        styleElement.id = 'aura-slider-animation';
         styleElement.textContent = `
-          .swing-slider-wrapper {
+          .aura-slider-wrapper {
             overflow: hidden;
             position: relative;
           }
-          .swing-scrolling-image {
+          .aura-scrolling-image {
             overflow: visible;
             position: relative;
           }
@@ -495,10 +495,10 @@ function Testimonial() {
                         linear infinite;
             animation-play-state: var(--poh, running);
           }
-          .swing-scrolling-image:hover .slider-container {
+          .aura-scrolling-image:hover .slider-container {
             animation-play-state: var(--poh, running);
           }
-          .swing-slider-item {
+          .aura-slider-item {
             flex: 0 0 auto;
             width: 300px;
             height: 100%;
@@ -537,7 +537,7 @@ function Testimonial() {
         <h1 className='text-3xl sm:text-4xl font-bold mb-4 sm:mb-12'>
           Testimonial
         </h1>
-        <h3 className='text-xl sm:text-2xl font-semibold mb-2'>Swing Dynamic Testimonials</h3>
+        <h3 className='text-xl sm:text-2xl font-semibold mb-2'>Aura Dynamic Testimonials</h3>
         <p className='mb-15'>
           This dynamic Tabs component provides seamless navigation between
           categorized content blocks with responsive design, interactive hover

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
-import logo from '../../public/logo.webp';
+import logo from '../../public/logo.png';
 
 function Footer() {
   const { darkMode } = useTheme();
@@ -18,7 +18,7 @@ function Footer() {
       <div className='w-full px-4 md:px-10'>
         <div className='flex flex-col items-center justify-center text-center mt-6'>
           <div className='mb-4 mt-14'>
-            <img src={logo} alt='SwingUI Logo' className='h-18' />
+            <img src={logo} alt='AuraUI Logo' className='h-18' />
           </div>
 
           <div className='mb-4'>
@@ -33,7 +33,7 @@ function Footer() {
             }`}
           >
             <p>
-              SwingUI is a hackathon project born during the{' '}
+              AuraUI is a hackathon project born during the{' '}
               <span className='font-semibold'>
                 ChaiCode Web Dev First Cohort
               </span>{' '}
@@ -43,7 +43,7 @@ function Footer() {
                 Hitesh Sir, Piyush Sir, Anirudh Sir, Mukul Sir
               </span>
               , and <span className='font-semibold'>Akash Sir</span>, we built
-              SwingUI not just to ship components, but to learn, grow, and
+              AuraUI not just to ship components, but to learn, grow, and
               create something we're truly proud of.
             </p>
           </div>
@@ -53,13 +53,13 @@ function Footer() {
           className={`flex flex-col md:flex-row md:justify-between md:items-center border-t ${borderClass} pt-10 pb-8 gap-y-4 text-sm mt-4 mb-4`}
         >
           <div className='text-center md:text-left w-full md:w-auto font-normal '>
-            <span>© 2025 SwingUI. All Rights Reserved.</span>
+            <span>© 2025 AuraUI. All Rights Reserved.</span>
           </div>
 
           <div className='w-full md:w-auto flex justify-center md:justify-end'>
             <div className='flex flex-wrap justify-center md:justify-end gap-4 md:gap-6 font-normal'>
               <a
-                href='https://github.com/imaaryan/SwingUI'
+                href='https://github.com/hemant9808/AuraUI'
                 className='hover:text-[var(--dark-nav-hover)] transition-colors'
                 rel='noopener noreferrer'
                 target='_blank'
@@ -67,7 +67,7 @@ function Footer() {
                 Github
               </a>
               <a
-                href='https://discord.com/invite/gd9Vjb6VCm'
+                href=''
                 rel='noopener noreferrer'
                 className='hover:text-[var(--dark-nav-hover)] transition-colors'
                 target='_blank'
@@ -75,7 +75,7 @@ function Footer() {
                 Discord
               </a>
               <a
-                href='https://x.com/swing_ui'
+                href=''
                 target='_blank'
                 rel='noopener noreferrer'
                 className='hover:text-[var(--dark-nav-hover)] transition-colors'

@@ -19,7 +19,7 @@ function ComingSoon() {
           />
           <button type="submit" class="subscribe-btn">Notify Me</button>
           <div id="success-message" class="success-message">
-            Thanks! We'll notify you when SwingUI launches.
+            Thanks! We'll notify you when AuraUI launches.
           </div>
         </form>
 

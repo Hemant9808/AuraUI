@@ -182,7 +182,7 @@ const Showcase = () => {
               Ready–to–Use Components
             </h2>
             <p className='text-lg max-w-3xl mx-auto'>
-              Skip the boilerplate. SwingUI offers pre-styled, customizable
+              Skip the boilerplate. AuraUI offers pre-styled, customizable
               Tailwind components built to save time and look great out of the
               box.
             </p>

@@ -699,10 +699,10 @@ function SocialShare() {
           Social Share
         </h2>
         <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
-          Swing Hive Interface
+          Aura Hive Interface
         </h2>
         <p className='mb-6 sm:mb-8 md:mb-10 lg:mb-12'>
-          SwingUI's sophisticated hexagonal network component presents a
+          AuraUI's sophisticated hexagonal network component presents a
           visually striking interface with interconnected modules, combining
           precise SVG rendering with interactive potential.
         </p>

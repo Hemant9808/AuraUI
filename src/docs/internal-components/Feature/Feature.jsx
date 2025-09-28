@@ -270,10 +270,10 @@ function Feature() {
         Features
         </h2>
         <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
-        Swing Glide Gallery
+        Aura Glide Gallery
         </h2>
         <p className='mb-6 sm:mb-8 md:mb-10 lg:mb-12'>
-        SwingUI's dynamic duo panel blends immersive content with fluid image browsing, enhanced by signature gradient fades for effortless navigation.
+        AuraUI's dynamic duo panel blends immersive content with fluid image browsing, enhanced by signature gradient fades for effortless navigation.
         </p>
 
         <PreviewCodeBtn showCode={showCode} setShowCode={setShowCode} />

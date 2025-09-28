@@ -5,7 +5,7 @@ import CodeBlock from '../../components/CodeBlock/CodeBlock.jsx';
 import BottomFooter from '../../../components/BottomFooter.jsx';
 
 import './responsive.css';
-import logo from '../../../assets/SwingUI.webp';
+import logo from '../../../assets/logo.png';
 
 function Scratchcard() {
   const [showCode, setShowCode] = useState(false);
@@ -15,9 +15,9 @@ function Scratchcard() {
      <div id="card"
       class="relative w-64 h-64 rounded-2xl overflow-hidden shadow-xl transition-transform ">
       <div
-        class="absolute inset-0 z-0 flex items-center justify-center swing-peach-gradient">
+        class="absolute inset-0 z-0 flex items-center justify-center aura-peach-gradient">
           <div className='text-8xl'>
-          <img src={logo} className="h-20" alt="SwingUI Logo" />
+          <img src={logo} className="h-20" alt="AuraUI Logo" />
           </div>
         </div>
       <canvas id="scratchCanvas" class="absolute inset-0 z-10"></canvas>
@@ -200,11 +200,11 @@ function Scratchcard() {
 
       <div
         ref={cardRef}
-        className='relative  w-64 h-64 rounded-2xl overflow-hidden shadow-xl transition-transform swing-ocean-gradient'
+        className='relative  w-64 h-64 rounded-2xl overflow-hidden shadow-xl transition-transform aura-ocean-gradient'
       >
-        <div className='absolute inset-0 z-0 flex items-center justify-center swing-ocean-gradient'>
+        <div className='absolute inset-0 z-0 flex items-center justify-center aura-ocean-gradient'>
           <div className='text-8xl'>
-            <img src={logo} className='h-20' alt='SwingUI Logo' />
+            <img src={logo} className='h-20' alt='AuraUI Logo' />
           </div>
         </div>
 
@@ -238,9 +238,9 @@ function Scratchcard() {
     <div>
     <div className='max-w-5xl min-h-[100dvh]  mx-auto responsive-width px-4 sm:px-6 lg:px-8 py-8 sm:py-12'>
       <h1 className='text-3xl sm:text-4xl font-bold pb-4 mb-3 sm:mb-8'>Scratch Card </h1>
-      <h3 className='text-xl sm:text-2xl font-semibold mb-2'>Swing Scratch Card</h3>
+      <h3 className='text-xl sm:text-2xl font-semibold mb-2'>Aura Scratch Card</h3>
       <p className='mb-10 sm:mb-16'>
-      SwingUI's interactive scratch card combines playful discovery with elegant visuals, using canvas technology to create a tactile reveal experience.
+      AuraUI's interactive scratch card combines playful discovery with elegant visuals, using canvas technology to create a tactile reveal experience.
       </p>
 
 

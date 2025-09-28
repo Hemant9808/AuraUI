@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
-    const mobileMenuButton = document.getElementById('swing-mobile-menu-button');
-    const mobileMenu = document.getElementById('swing-mobile-menu');
+    const mobileMenuButton = document.getElementById('aura-mobile-menu-button');
+    const mobileMenu = document.getElementById('aura-mobile-menu');
     const servicesDropdownButton = document.getElementById('services-dropdown-button');
-    const servicesDropdown = document.getElementById('swing-services-dropdown');
+    const servicesDropdown = document.getElementById('aura-services-dropdown');
     const desktopButton = document.getElementById('desktop-services-dropdown-button');
     const desktopDropdown = document.getElementById('desktop-services-dropdown');
     const previewContainer = document.querySelector('.preview-container');

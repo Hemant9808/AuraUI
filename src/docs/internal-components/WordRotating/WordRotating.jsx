@@ -18,7 +18,7 @@ const RotatingWordsComponent = ({ rotatingWords = ['Like !', 'Love !', 'are Prou
 ${rotatingWords
   .map(
     (word, i) =>
-      `    <span class="rotating-word swing-ocean-gradient-text text-xl sm:text-3xl md:text-4xl font-bold ${
+      `    <span class="rotating-word aura-ocean-gradient-text text-xl sm:text-3xl md:text-4xl font-bold ${
         i !== 0 ? 'hidden' : ''
       }">${word}</span>`
   )
@@ -70,9 +70,9 @@ ${rotatingWords
       <h2 className='text-3xl sm:text-4xl font-bold pb-4 mb-3 sm:mb-8'>
           Word Rotating
         </h2>
-        <h3 className='text-xl sm:text-2xl font-semibold mb-2'>Swing Dynamic Headline</h3>
+        <h3 className='text-xl sm:text-2xl font-semibold mb-2'>Aura Dynamic Headline</h3>
         <p className="mb-6 sm:mb-10 text-left sm:text-left">
-        SwingUI's animated text component dynamically rotates through impactful phrases with smooth transitions, creating engaging headlines that capture attention.
+        AuraUI's animated text component dynamically rotates through impactful phrases with smooth transitions, creating engaging headlines that capture attention.
         </p>
 
         <PreviewCodeBtn showCode={showCode} setShowCode={setShowCode} />
@@ -86,7 +86,7 @@ ${rotatingWords
                   <span
                     key={i}
                     ref={(el) => (wordsRef.current[i] = el)}
-                    className={`absolute text-xl sm:text-3xl md:text-4xl font-bold rotating-word swing-ocean-gradient-text ${
+                    className={`absolute text-xl sm:text-3xl md:text-4xl font-bold rotating-word aura-ocean-gradient-text ${
                       i !== 0 ? 'hidden' : ''
                     }`}
                   >

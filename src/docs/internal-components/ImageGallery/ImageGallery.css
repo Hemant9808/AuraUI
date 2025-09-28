@@ -1,4 +1,4 @@
-.swing-scrolling-image {
+.aura-scrolling-image {
   visibility: hidden;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
@@ -7,17 +7,17 @@
 
 }
 
-.swing-scrolling-image.showing {
+.aura-scrolling-image.showing {
   visibility: visible;
   opacity: 1;
 }
 
-.swing-scrolling-image .slider-container {
+.aura-scrolling-image .slider-container {
   animation: sliding calc(var(--est-speed, 10) * 1s * 50 / var(--speed)) linear infinite;
   display: flex;
   gap: 0.5rem;
 }
-.swing-slider-item {
+.aura-slider-item {
   transform: translateZ(0);
   transition: transform 0.3s ease-in-out;
   flex-shrink: 0;

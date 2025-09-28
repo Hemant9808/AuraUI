@@ -116,10 +116,10 @@ const ImageAccordions = () => {
           Image Accordions
         </h2>
         <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
-          Swing Hover Gallery
+          Aura Hover Gallery
         </h2>
         <p className='mb-6 sm:mb-8 md:mb-10 lg:mb-12'>
-          SwingUI's interactive image gallery features smooth hover-triggered
+          AuraUI's interactive image gallery features smooth hover-triggered
           expansion with elegant content overlays, creating a space-efficient
           yet engaging visual presentation.
         </p>

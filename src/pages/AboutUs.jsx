@@ -317,7 +317,7 @@ const AboutUs = () => {
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold  mb-6">A Product Built with Friendship, Pressure & Passion <span className="text-red-700">❤</span></h1>
           <p className="text-lg  max-w-4xl mx-auto">
-          From chaotic beginnings to a smooth launch, SwingUI was built by a team that supported each 
+          From chaotic beginnings to a smooth launch, AuraUI was built by a team that supported each 
             other, learned together, and grew stronger every day.
           </p>
         </div>
@@ -335,7 +335,7 @@ const AboutUs = () => {
             <div>
               <h2 className="text-3xl sm:text-4xl font-bold mb-8">Our Story</h2>
               <p className="text-lg mb-6">
-              SwingUI is a modern, easy-to-use UI component library built with Tailwind CSS and React, 
+              AuraUI is a modern, easy-to-use UI component library built with Tailwind CSS and React, 
                 designed to help developers build beautiful, responsive interfaces faster. It’s more than just a 
                 library—it’s the outcome of passion, collaboration, and hustle by a group of backbenchers from 
                 the first ChaiCode Web Dev Cohort.
@@ -368,10 +368,10 @@ const AboutUs = () => {
           <h2
             className={`text-3xl sm:text-4xl font-bold mb-4 ${darkMode ? "text-[var(--color-text-dark)]" : "text-[var(--color-text)]"}`}
           >
-            Birth of SwingUI
+            Birth of AuraUI
           </h2>
           <p className={`text-lg max-w-5xl mx-auto ${darkMode ? "text-gray-300" : "text-gray-600"}`}>
-          SwingUI was born during a hackathon hosted by ChaiCode, with a challenge: create something meaningful, something that solves a real developer problem. From chaotic beginnings on Day 0, we jumped into discussions, built roadmaps, and began turning ideas into reality.
+          AuraUI was born during a hackathon hosted by ChaiCode, with a challenge: create something meaningful, something that solves a real developer problem. From chaotic beginnings on Day 0, we jumped into discussions, built roadmaps, and began turning ideas into reality.
           </p>
         </div>
 
@@ -399,7 +399,7 @@ const AboutUs = () => {
             },
             {
                 title: "Day 18",
-                description: "Launched the beta version of SwingUI! ",
+                description: "Launched the beta version of AuraUI! ",
             },
             {
                 title: "Day 19–24",
@@ -656,7 +656,7 @@ const AboutUs = () => {
       <div className="lg:ml-10">
         <h3 className="text-3xl font-semibold mb-6">Our Vision</h3>
         <p className="text-lg mb-6 ">
-          We're building SwingUI for:
+          We're building AuraUI for:
         </p>
         <ul className="space-y-3">
           {[
@@ -681,7 +681,7 @@ const AboutUs = () => {
     <div className="flex flex-col gap-10">
       <div>
         <p className="text-lg mb-6">
-          From the very start, SwingUI has been a #BuildInPublic journey. Every challenge, win, and 
+          From the very start, AuraUI has been a #BuildInPublic journey. Every challenge, win, and 
           decision was shared on Twitter, creating a transparent timeline of growth and learning.
         </p>
         <ul className="space-y-3">

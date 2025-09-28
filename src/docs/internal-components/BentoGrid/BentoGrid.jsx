@@ -19,11 +19,11 @@ const BentoGrid = () => {
   const htmlCssCode = `
 <div class="max-w-6xl mx-auto p-2 sm:p-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 auto-rows-[200px] border border-zinc-700">
 
-  <div class="swing-ocean-gradient border border-zinc-700 p-4 sm:p-6 rounded-xl col-span-1 sm:col-span-2 row-span-2 flex flex-col justify-between">
-    <img src="${logo}" class="w-10 sm:w-12 h-10 sm:h-12 rounded-full" alt="SwingUI Logo" />
+  <div class="aura-ocean-gradient border border-zinc-700 p-4 sm:p-6 rounded-xl col-span-1 sm:col-span-2 row-span-2 flex flex-col justify-between">
+    <img src="${logo}" class="w-10 sm:w-12 h-10 sm:h-12 rounded-full" alt="AuraUI Logo" />
     <div class="mt-3 sm:mt-4">
-      <h1 class="text-xl sm:text-2xl text-white font-bold">About SwingUi</h1>
-      <p class="text-white text-base sm:text-lg mt-1">SwingUi is a modern component library designed to build fast, beautiful UIs.</p>
+      <h1 class="text-xl sm:text-2xl text-white font-bold">About AuraUI</h1>
+      <p class="text-white text-base sm:text-lg mt-1">AuraUI is a modern component library designed to build fast, beautiful UIs.</p>
     </div>
     <a href="#!" class="text-white font-medium mt-3 sm:mt-4 hover:underline ">Explore Components →</a>
   </div>
@@ -59,7 +59,7 @@ const BentoGrid = () => {
 
   <div class="bg-zinc-800 border border-zinc-700 p-3 sm:p-6 rounded-xl col-span-1 sm:col-span-2 lg:col-span-4 flex items-center justify-center">
     <p class="text-zinc-300 text-sm sm:text-base lg:text-lg text-center">
-      <span class="font-bold text-white">Meet SwingUI—the UI library that ditches the bloat and complexity, delivering buttery-smooth, pure-native components that feel like cheating.
+      <span class="font-bold text-white">Meet AuraUI—the UI library that ditches the bloat and complexity, delivering buttery-smooth, pure-native components that feel like cheating.
     </p>
   </div>
 
@@ -98,10 +98,10 @@ const BentoGrid = () => {
   </div>
 
   <div class="bg-zinc-800 border border-zinc-700 rounded-xl p-3 sm:p-6 col-span-1 sm:col-span-2 lg:col-span-3 flex flex-col justify-center items-center text-center">
-    <h2 class="text-base sm:text-lg font-semibold mb-2 text-white">Join the SwingUi Mailing List</h2>
+    <h2 class="text-base sm:text-lg font-semibold mb-2 text-white">Join the AuraUI Mailing List</h2>
     <form class="w-full max-w-xl flex flex-col sm:flex-row gap-2 sm:gap-3">
-      <input type="email" placeholder="Email" class="flex-1 px-3 py-1.5 sm:px-4 sm:py-2 rounded-md bg-zinc-700 text-white text-sm focus:outline-none focus:ring-2 focus:swing-ocean-gradient" />
-      <button type="submit" class="swing-ocean-gradient text-white px-4 sm:px-6 py-1.5 sm:py-2 rounded-md hover:swing-ocean-gradient transition text-sm ">
+      <input type="email" placeholder="Email" class="flex-1 px-3 py-1.5 sm:px-4 sm:py-2 rounded-md bg-zinc-700 text-white text-sm focus:outline-none focus:ring-2 focus:aura-ocean-gradient" />
+      <button type="submit" class="aura-ocean-gradient text-white px-4 sm:px-6 py-1.5 sm:py-2 rounded-md hover:aura-ocean-gradient transition text-sm ">
       Join
       </button>
     </form>
@@ -122,9 +122,9 @@ const BentoGrid = () => {
         <h2 className='text-3xl mb-3 sm:mb-8 sm:text-4xl font-bold pb-4'>
           Bento Grid
         </h2>
-        <h3 className='text-xl sm:text-2xl font-semibold mb-2'>Swing Grid Portal</h3>
+        <h3 className='text-xl sm:text-2xl font-semibold mb-2'>Aura Grid Portal</h3>
         <p className='mb-6 sm:mb-10 lg:mb-16'>
-        SwingUI's responsive component showcase presents your library's capabilities through an interactive grid layout with visual examples and key information sections.
+        AuraUI's responsive component showcase presents your library's capabilities through an interactive grid layout with visual examples and key information sections.
         </p>
 
         <PreviewCodeBtn showCode={showCode} setShowCode={setShowCode} />

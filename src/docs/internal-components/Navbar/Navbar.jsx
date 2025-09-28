@@ -3,7 +3,7 @@ import PreviewCodeBtn from '../../../components/PreviewCodeBtn.jsx';
 // import { useTheme } from '../../../context/ThemeContext.jsx';
 import CodeBlock from '../../components/CodeBlock/CodeBlock.jsx';
 import BottomFooter from '../../../components/BottomFooter.jsx';
-import logo from '../../../../public/logo.webp'
+import logo from '../../../../public/logo.png'
 
 import "./Navbar.js"
 const Navbar = () => {
@@ -58,7 +58,7 @@ const Navbar = () => {
       </div>
       <div class="xl:hidden flex items-center">
         <button
-          id="swing-mobile-menu-button"
+          id="aura-mobile-menu-button"
           class="p-2 rounded-md text-gray-600 hover:text-gray-900 focus:outline-none"
         >
           <i class="ri-menu-line text-2xl"></i>
@@ -67,7 +67,7 @@ const Navbar = () => {
     </div>
   </div>
 
-  <div id="swing-mobile-menu" class="hidden xl:hidden">
+  <div id="aura-mobile-menu" class="hidden xl:hidden">
     <div class="px-2 pt-2 pb-3 space-y-1">
       <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">Home</a>
       <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">About</a>
@@ -76,7 +76,7 @@ const Navbar = () => {
           Services
           <i class="ri-arrow-down-s-line"></i>
         </button>
-        <div id="swing-services-dropdown" class="hidden pl-4">
+        <div id="aura-services-dropdown" class="hidden pl-4">
           <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">Service 1</a>
           <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">Service 2</a>
           <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-100">Service 3</a>
@@ -103,14 +103,14 @@ const Navbar = () => {
   useEffect(() => {
     if (!showCode) {
       const mobileMenuButton = document.getElementById(
-        'swing-mobile-menu-button',
+        'aura-mobile-menu-button',
       );
-      const mobileMenu = document.getElementById('swing-mobile-menu');
+      const mobileMenu = document.getElementById('aura-mobile-menu');
       const servicesDropdownButton = document.getElementById(
         'services-dropdown-button',
       );
       const servicesDropdown = document.getElementById(
-        'swing-services-dropdown',
+        'aura-services-dropdown',
       );
       const desktopButton = document.getElementById(
         'desktop-services-dropdown-button',
@@ -174,10 +174,10 @@ const Navbar = () => {
     <div className="max-w-5xl min-h-[100dvh]  mx-auto px-2 sm:px-6 lg:px-8 py-8 sm:py-4">
       <h2 className='text-3xl sm:text-4xl font-bold pb-6 mb-3 sm:mb-6 mt-8'> Navbar</h2>
       <h3 className='text-xl sm:text-2xl font-semibold mb-2'>
-      Swing Nav Pro
+      Aura Nav Pro
         </h3>
       <p className='mb-10 sm:mb-16'>
-      SwingUI's responsive navigation bar delivers seamless desktop-to-mobile adaptability with intuitive dropdowns and clean social integrations.
+      AuraUI's responsive navigation bar delivers seamless desktop-to-mobile adaptability with intuitive dropdowns and clean social integrations.
       </p>
 
       <PreviewCodeBtn showCode={showCode} setShowCode={setShowCode} />

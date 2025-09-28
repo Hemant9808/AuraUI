@@ -69,7 +69,7 @@
 }
 
 @media (max-width: 768px) {
-  .swing-slider-item {
+  .aura-slider-item {
     width: 65vw !important;
     min-width: 320px;
     height: 150px!important;

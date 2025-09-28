@@ -18,21 +18,21 @@ const VerticalSliderDemo = () => {
 
   const slides = [
     {
-      title: 'SwingUI - Welcome Aboard',
+      title: 'AuraUI - Welcome Aboard',
       description:
         'This is the first slide. Discover a vibrant experience like never before.',
       buttonText: 'Explore Now',
       background: 'linear-gradient(135deg, #ff758c, #ff7eb3)',
     },
     {
-      title: 'SwingUI - Explore New Horizons',
+      title: 'AuraUI - Explore New Horizons',
       description:
         'This is the second slide. Connect ideas and build innovative solutions.',
       buttonText: 'Get Inspired',
       background: 'linear-gradient(135deg, #43e97b, #38f9d7)',
     },
     {
-      title: 'SwingUI - Slide Three',
+      title: 'AuraUI - Slide Three',
       description:
         'This is the third slide. Inspire your creativity with engaging visuals.',
       buttonText: 'Start Creating',
@@ -50,7 +50,7 @@ const VerticalSliderDemo = () => {
         class="min-h-full flex flex-col justify-center items-center text-center p-10 text-white rounded-[20px]"
         style="background: linear-gradient(135deg, #667eea, #764ba2);"
       >
-        <h2 class="text-4xl mb-4">SwingUI - Slide Three</h2>
+        <h2 class="text-4xl mb-4">AuraUI - Slide Three</h2>
         <p class="text-lg max-w-[600px] mb-6">
           This is the third slide. Inspire your creativity with engaging visuals.
         </p>
@@ -64,7 +64,7 @@ const VerticalSliderDemo = () => {
         class="min-h-full flex flex-col justify-center items-center text-center p-10 text-white rounded-[20px]"
         style="background: linear-gradient(135deg, #ff758c, #ff7eb3);"
       >
-        <h2 class="text-4xl mb-4">SwingUI - Welcome Aboard</h2>
+        <h2 class="text-4xl mb-4">AuraUI - Welcome Aboard</h2>
         <p class="text-lg max-w-[600px] mb-6">
           This is the first slide. Discover a vibrant experience like never before.
         </p>
@@ -77,7 +77,7 @@ const VerticalSliderDemo = () => {
         class="min-h-full flex flex-col justify-center items-center text-center p-10 text-white rounded-[20px]"
         style="background: linear-gradient(135deg, #43e97b, #38f9d7);"
       >
-        <h2 class="text-4xl mb-4">SwingUI - Explore New Horizons</h2>
+        <h2 class="text-4xl mb-4">AuraUI - Explore New Horizons</h2>
         <p class="text-lg max-w-[600px] mb-6">
           This is the second slide. Connect ideas and build innovative solutions.
         </p>
@@ -90,7 +90,7 @@ const VerticalSliderDemo = () => {
         class="min-h-full flex flex-col justify-center items-center text-center p-10 text-white rounded-[20px]"
         style="background: linear-gradient(135deg, #667eea, #764ba2);"
       >
-        <h2 class="text-4xl mb-4">SwingUI - Slide Three</h2>
+        <h2 class="text-4xl mb-4">AuraUI - Slide Three</h2>
         <p class="text-lg max-w-[600px] mb-6">
           This is the third slide. Inspire your creativity with engaging visuals.
         </p>
@@ -104,7 +104,7 @@ const VerticalSliderDemo = () => {
         class="min-h-full flex flex-col justify-center items-center text-center p-10 text-white rounded-[20px]"
         style="background: linear-gradient(135deg, #ff758c, #ff7eb3);"
       >
-        <h2 class="text-4xl mb-4">SwingUI - Welcome Aboard</h2>
+        <h2 class="text-4xl mb-4">AuraUI - Welcome Aboard</h2>
         <p class="text-lg max-w-[600px] mb-6">
           This is the first slide. Discover a vibrant experience like never before.
         </p>
@@ -274,10 +274,10 @@ const VerticalSliderDemo = () => {
           Slider
         </h2>
         <h2 className='text-xl sm:text-2xl font-semibold mb-2'>
-          Swing Slide Carousel
+          Aura Slide Carousel
         </h2>
         <p className='mb-6 sm:mb-8 md:mb-10 lg:mb-12'>
-          SwingUI's vertical slide carousel delivers seamless content
+          AuraUI's vertical slide carousel delivers seamless content
           transitions with elegant gradient backgrounds and intuitive dot
           navigation.
         </p>
