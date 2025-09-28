@@ -1,0 +1,181 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-poppins: 'Poppins', sans-serif;
+
+  /* Base colors */
+  --color-primary: #1c79af;
+  --color-primary-hover: #135e89;
+
+  --color-text: #333333;
+  --color-text-dark: #fdfdfd;
+
+  /* Light theme */
+  --light-bg: #f5f5f5;
+  --light-navbar-bg: #ffffff;
+  --light-dropdown-bg: #ffffff;
+  --light-hover-bg: #e5e7eb;
+  --light-nav-default: #444444;
+  --light-nav-hover: #1c79af;
+  --light-toggle-hover: #09151c;
+
+  /* Dark theme */
+  --dark-bg: #09151c;
+  --dark-navbar-bg: #02111a;
+  --dark-dropdown-bg: #02111a;
+  --dark-hover-bg: #09151c;
+  --dark-nav-default: #d5d5d5;
+  --dark-nav-hover: #1c79af;
+  --dark-toggle-hover: #ffffff;
+
+  /* Shadow */
+  --shadow-default: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.swing-ocean-gradient-text {
+  background: linear-gradient(130deg, #3badb2 0%, #004aad 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@media only screen and (width: 1024px) and (height: 1366px) {
+  .card-ipadpro {
+    width: 270px !important;
+  }
+}
+
+.scrollbar-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+pre[class*='language-'] {
+  white-space: pre-wrap !important;
+  word-break: break-word;
+}
+code[class*='language-'] {
+  white-space: pre-wrap !important;
+  word-break: break-word;
+}
+
+.scrollbar-custom {
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb) transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 4px;
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+/* Light Mode Scrollbar */
+:root {
+  --scrollbar-thumb: #e5e7eb; /* gray-200 */
+  --scrollbar-thumb-hover: #d1d5db; /* gray-300 */
+}
+
+/* Dark Mode Scrollbar */
+.dark {
+  --scrollbar-thumb: #1f2937; /* gray-800 */
+  --scrollbar-thumb-hover: #374151; /* gray-700 */
+}
+
+/* Firefox Support */
+@supports (scrollbar-color: auto) {
+  * {
+    scrollbar-color: var(--scrollbar-thumb) transparent;
+    scrollbar-width: thin;
+  }
+}
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left linear infinite;
+}
+
+.animate-scroll-right {
+  animation: scroll-right linear infinite;
+}
+
+
+.pulse {
+  background-color: lightblue;
+  height: 7vmax;
+  width: 7vmax;
+  opacity: 0.5;
+  border-radius: 100%;
+  position: absolute;
+}
+.ring {
+  position: absolute;
+  background-color: inherit;
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  opacity: 0.5;
+  animation: pulsing 2s ease-out infinite;
+
+  &:nth-of-type(1) {
+    animation-delay: -0.5s;
+  }
+  &:nth-of-type(2) {
+    animation-delay: -1s;
+  }
+  &:nth-of-type(3) {
+    animation-delay: -1.5s;
+  }
+}
+
+@keyframes pulsing {
+  100% {
+    transform: scale(1.75);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .pulse {
+    height: 15vmax;
+    width: 15vmax;
+  }
+}
+
+
+
+
+
+
